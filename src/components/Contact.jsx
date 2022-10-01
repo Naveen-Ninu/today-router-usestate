@@ -1,10 +1,10 @@
 import React from "react";
-import Navigation from "./Navigation";
+import Header from "./Header";
 
 function Contact() {
   return (
     <>
-      <Navigation />
+      <Header />
       <section className="vh-100  bg-info text-center d-flex justify-content-center align-items-center">
         <div className="container">
           <div className="row">

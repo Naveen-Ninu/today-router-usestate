@@ -1,12 +1,12 @@
 import React from "react";
-import Navigation from "./Navigation";
 import { useState } from "react";
+import Header from "./Header";
 
 function Hero() {
   const [count, setCount] = useState(1);
   return (
     <>
-      <Navigation />
+      <Header />
       <section className="vh-100  bg-danger text-center d-flex justify-content-center align-items-center">
         <div className="container d-flex justify-content-center align-items-center vh-100 bg-warning">
           <div className="row">

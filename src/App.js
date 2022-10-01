@@ -7,6 +7,7 @@ import Contact from "./components/Contact";
 import Faq from "./components/Faq";
 import Team from "./components/Team";
 import Hero from "./components/Hero";
+import Header from "./components/Header";
 
 function App() {
   return (
