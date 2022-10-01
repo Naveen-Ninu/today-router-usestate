@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+}
+.nav_link {
+  font-size: 25px !important;
+  font-weight: bold !important;
+  color: chartreuse !important;
+}
+.nav_link:hover {
+  color: rgb(255, 0, 0) !important;
+}
+.text_style {
+  font-size: 100px;
+  font-weight: 500;
+}
+.click_me {
+  padding: 12px 22px;
+  border-radius: 25px;
+  font-size: 16;
+  font-weight: 500;
+  background-color: blue;
+  color: white;
+}
