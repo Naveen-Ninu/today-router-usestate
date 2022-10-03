@@ -8,7 +8,7 @@ function Dynamicpage() {
           <div className="row">
             <div className="col-12">
               <h1 className="text_style text-light">
-                Dhaynamic 2nd tab ya page
+                Dhaynamic 2nd tab else page
               </h1>
             </div>
           </div>

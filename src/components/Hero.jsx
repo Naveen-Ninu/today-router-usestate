@@ -12,12 +12,12 @@ function Hero() {
           <div className="row">
             <div className="col-12 fw-bold my-auto text-center">
               <p className="text-light fs_md">You clicked {count} times</p>
-              <button className="click_me" onClick={() => setCount(count + 2)}>
+              <button className="click_me" onClick={() => setCount(count + 1)}>
                 1 add
               </button>
               <button
                 className="click_me mx-4"
-                onClick={() => setCount(count - 2)}
+                onClick={() => setCount(count - 1)}
               >
                 1 subtract
               </button>
