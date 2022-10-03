@@ -5,7 +5,7 @@ import "./App.css";
 import Navigation from "./components/Navigation";
 import Contact from "./components/Contact";
 import Faq from "./components/Faq";
-import Team from "./components/Team";
+import Slider from "./components/Slider";
 import Hero from "./components/Hero";
 import Header from "./components/Header";
 
@@ -16,7 +16,7 @@ function App() {
         <Route exact path="/" component={Navigation} />
         <Route exact path="/hero" component={Hero} />
         <Route exact path="/contact" component={Contact} />
-        <Route exact path="/team" component={Team} />
+        <Route exact path="/slider" component={Slider} />
         <Route exact path="/faq" component={Faq} />
       </Switch>
     </div>
