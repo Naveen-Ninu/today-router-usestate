@@ -6,11 +6,11 @@ function Slider() {
   return (
     <>
       <Header />
-      <section className="vh-100  bg-info text-center d-flex justify-content-center align-items-center">
+      <section className="vh-100  bg-info text-center ">
         <div className="container">
           <div className="row">
             <div className="col-12 ">
-              <h1 className="text_style text-light">Team</h1>
+              <h1 className="text_style text-light">Slider</h1>
             </div>
           </div>
         </div>
