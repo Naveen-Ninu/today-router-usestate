@@ -1,12 +1,21 @@
 import "bootstrap/dist/css/bootstrap.min.css";
+import { Route, Switch } from "react-router-dom";
 import "./App.css";
-import Routing from "./Routing";
+import Contact from "./components/Contact";
+import Faq from "./components/Faq";
+import Hero from "./components/Hero";
+import Header from "./components/Header";
 
 function App() {
   return (
-    <div>
-      <Routing />
-    </div>
+    <>
+      <Header />
+      <Switch>
+        <Route exact path="/hero" component={Hero} />
+        <Route exact path="/contact" component={Contact} />
+        <Route exact path="/faq" component={Faq} />
+      </Switch>
+    </>
   );
 }
 
