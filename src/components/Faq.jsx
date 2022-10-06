@@ -1,10 +1,9 @@
 import React from "react";
-import Header from "./Header";
 
 function Faq() {
   return (
     <>
-      <Header />
+
       <section className="vh-100 bg-success text-center d-flex justify-content-center align-items-center">
         <div className="container">
           <div className="row">

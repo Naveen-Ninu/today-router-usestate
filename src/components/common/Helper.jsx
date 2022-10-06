@@ -46,7 +46,7 @@ export const headerData = [
     path: "/faq",
   },
   {
-    title: "Contact",
+    title: "Table",
     path: "/contact",
   },
 ];

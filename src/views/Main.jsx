@@ -5,14 +5,14 @@ import Hero from "../components/Hero";
 import Slider from "../components/Slider";
 
 function Main() {
-  return (
-    <>
-      <Slider />
-      <Contact />
-      <Hero />
-      <Faq />
-    </>
-  );
+    return (
+        <>
+            <Slider />
+            <Contact />
+            <Hero />
+            <Faq />
+        </>
+    );
 }
 
 export default Main;

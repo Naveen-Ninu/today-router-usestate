@@ -1,13 +1,14 @@
 import React from "react";
 import { useState } from "react";
-import Header from "./Header";
+
 
 function Hero() {
   const [count, setCount] = useState(1);
   return (
     <>
-      <Header />
-      <section className="vh-100  bg-danger text-center d-flex justify-content-center align-items-center">
+
+      <section className="vh-100  bg-danger flex-column-reverse text-center d-flex justify-content-center align-items-center">
+
         <div className="container d-flex justify-content-center align-items-center vh-100 bg-warning">
           <div className="row">
             <div className="col-12 fw-bold my-auto text-center">

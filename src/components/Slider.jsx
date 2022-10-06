@@ -1,11 +1,10 @@
 import React from "react";
 import { slider1 } from "./common/Helper";
-import Header from "./Header";
 
 function Slider() {
   return (
     <>
-      <Header />
+
       <section className="vh-100  bg-info text-center ">
         <div className="container">
           <div className="row">
